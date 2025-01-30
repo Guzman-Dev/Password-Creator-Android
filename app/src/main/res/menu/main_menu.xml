@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/reset_button"
+        android:title="Reset encryption keys"
+        />
+    <item
+        android:id="@+id/import_button"
+        android:title="Import encrpyption keys"
+        />
+    <item
+        android:id="@+id/export_button"
+        android:title="Export encryption keys"
+        />
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        />
+    
+
+</menu>
