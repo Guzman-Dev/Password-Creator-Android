@@ -63,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
         } else if (itemId == R.id.export_button) {
             return true;
         } else if (itemId == R.id.help) {
+            HelpDialog dialog = new HelpDialog();
+            dialog.show(getSupportFragmentManager(),"Help");
             return true;
         }
         return super.onOptionsItemSelected(item);

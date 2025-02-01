@@ -6,7 +6,21 @@
     <string name="emptyPassword">The password entered is empty</string>
     <string name="password_created">The password has been created</string>
     <string name="show_password">Toggle show</string>
-    <string name="reset_message">Reseting encryption keys will give you access to different safe passwords than before.\n
-    It is recommended to save any previous safe passwords that may have been used in services.\n
-    ¿Would you like to reset encryption keys?</string>
+    <string name="help_message1">¿How do i use it?\n
+    1.Enter a simple password of your choice (example: password123).\n
+    2.The app encrypts the password using randomly generated encryption keys.\n
+    3.Your new secure password is created and ready to use.\n
+    Note: If you enter spaces or special characters the app will ignore them and generate a password
+    with the characters supported (Lowercase/Uppercase letters, and Numbers).\n\n
+
+
+    I don\'t like the password the app gave me,\n¿Can i change it?\n
+    Yes! To do so you need to press the "Reset Encryption Keys" option on the dropdown menu and it will generate new encryption keys.\n\n
+
+    Im changing PCs, ¿How do i get access to the same passwords i got in my previous pc?\n
+    You can import the encryption keys into the new PC.\n
+    1.Press the "Export encryption keys" button Image and select a folder where the keys will be exported to.\n
+    2.Move the exported keys into a folder in your new PC, preferably a folder that is easy to find, like in desktop for example.\n
+    3.On the new PC press the "Import encryption keys" button on the dropdown menu and select BOTH keys, then press import.
+</string>
 </resources>
